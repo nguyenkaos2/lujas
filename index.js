@@ -30,8 +30,8 @@ function kiusi(){
   const page = await browser.newPage();
   await page.goto('www.adzbux.com/promote7.php?ref=biboucuongoc1102'); 
   console.log('----XONG0--------');
-  setTimeout(async () => await await page.close(), 20000);
-  setTimeout(async () => await browser.close(), 30000);
+  setTimeout(async () => await await page.close(), 100000);
+  setTimeout(async () => await browser.close(), 150000);
   console.log('----XONG--------');
   
   })();
@@ -43,7 +43,7 @@ function f() {
     console.log('-111111111111-------trong f -----------');
     kiusi();
     console.log(Date()); 
-    setTimeout( f, 40000 ); 
+    setTimeout( f, 200000 ); 
     console.log('--tttttttttt--') 
 }
 
